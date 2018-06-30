@@ -10,7 +10,7 @@
       <h1>ねこったー</h1>
     </header>
     <div class="contents">
-      <%= @tweets.each do |tweet| %>
+      <% @tweets.each do |tweet| %>
         <div class="message clearfix">
           <%= image_tag 'cat1.png' %>
           <div class="message_box">
